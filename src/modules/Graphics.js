@@ -606,7 +606,7 @@ class Graphics {
 
     if (!radial) {
       if (style === 'vertical') {
-        g.from(0, 0).to(0, 1)
+        g.from(1, 1).to(1, 1)
       } else if (style === 'diagonal') {
         g.from(0, 0).to(1, 1)
       } else if (style === 'horizontal') {
